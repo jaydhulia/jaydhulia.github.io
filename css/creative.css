@@ -31,22 +31,26 @@ a:hover {
   color: #f05f40;
 }
 
-h4 {
+/* h4 {
   color: #09adb3
-}
+} */
 
 li {
   text-align: left
 }
 
 h5 {
-  color: #f05f40
+  color: #09adb3
 }
 
+.list-unstyled li {
+  text-align: center;
+  padding-bottom: 0.5em;
+}
 
 h1,
 h2,
-h6 {
+h6{
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   color: #000080;
 }
