@@ -399,3 +399,13 @@ header.masthead p {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
+
+#bottomicongit{
+  transform: scale(1.03225806,1);
+  color: white;
+}
+
+#bottomiconlink {
+  color: white;
+ transform: scale(1.14285714,1); 
+}
