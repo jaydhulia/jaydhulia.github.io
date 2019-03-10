@@ -18,7 +18,9 @@ hr {
 }
 
 hr.light {
-  border-color: #fff;
+  max-width: 75%;
+  border-color: rgb(224, 219, 219);
+  border-width: 1.5px;
 }
 
 a {
@@ -36,7 +38,8 @@ a:hover {
 } */
 
 li {
-  text-align: left
+  text-align: left;
+  color: rgb(100, 95, 95)
 }
 
 h5 {
@@ -46,6 +49,7 @@ h5 {
 .list-unstyled li {
   text-align: center;
   padding-bottom: 0.5em;
+  color: black
 }
 
 h1,
@@ -82,7 +86,8 @@ h6{
 
 .bg-custom {
   /* background-color: #d8d4d4; */
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background-color: white;
   padding: 2rem 0;
 }
 
@@ -223,7 +228,8 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: black;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #F05F40;
@@ -233,7 +239,8 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
+    /* color: #212529; */
+    color: white;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -286,10 +293,14 @@ header.masthead p {
   }
 }
 
-.service-box {
+/* .service-box {
   max-width: 600px;
-}
+} */
 
+ul {
+  margin-left: 0%;
+  padding-left: 15px
+}
 .portfolio-box {
   position: relative;
   display: block;
