@@ -211,8 +211,13 @@ section {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  top: 25%;
+  margin-right: auto;
+  position: relative;
+  max-width: 70%;
 }
 
 .portfolio-modal .modal-content {
