@@ -1,2 +1,2 @@
 # jaydhulia.github.io
-My portfolio
+My online portfolio: <a href="https://jaydhulia.com/" target="_blank"> jaydhulia.com </a>
