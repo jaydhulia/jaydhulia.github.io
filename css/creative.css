@@ -1,3 +1,10 @@
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/header.jpg");
+  background-position: center center;
+  background-size: cover;
+}
 
 body,
 html {
@@ -32,10 +39,6 @@ a {
 a:hover {
   color: #f05f40;
 }
-
-/* h4 {
-  color: #09adb3
-} */
 
 li {
   text-align: left;
@@ -85,8 +88,6 @@ h6{
 }
 
 .bg-custom {
-  /* background-color: #d8d4d4; */
-  /* background-color: whitesmoke; */
   background-color: white;
   padding: 2rem 0;
 }
@@ -205,8 +206,6 @@ section {
 
 .portfolio-modal {
   padding-right: 0px !important;
-  /* left: 50%; */
-  /* right: 50%; */
   float: left;
 }
 
@@ -246,9 +245,6 @@ section {
   margin-bottom: 30px;
 }
 
-/* .portfolio-modal .modal-content img {
-  margin-bottom: 30px;
-} */
 
 .portfolio-modal .modal-content button {
   cursor: pointer;
@@ -418,14 +414,6 @@ img::-moz-selection {
   }
 }
 
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
-  background-position: center center;
-  background-size: cover;
-}
-
 header.masthead hr {
   margin-top: 15px;
   margin-bottom: 30px;
@@ -463,9 +451,6 @@ header.masthead p {
   }
 }
 
-/* .service-box {
-  max-width: 600px;
-} */
 
 ul {
   margin-left: 0%;
