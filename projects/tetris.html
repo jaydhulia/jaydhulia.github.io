@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="description" content="Jay Dhulia, Software Engineering, University of Waterloo">
+    <meta name="author" content="Jay Dhulia">
+
+    <title>Tetris - Jay Dhulia</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts-->
+    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <link
+        href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="../favicon.png">
+
+    <!-- Custom styles -->
+    <link href="../css/creative.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <section id="Tetris">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto text-center">
+                    <h2 class="section-heading">Tetris</h2>
+                    <hr class="my-4">
+                </div>
+                <div class="col mx-5">
+                    <div class="mb-5">
+                        <ul>
+                            <li> Fully functional tetris game with multiple levels and additional features! </li>
+                            <li> 4 different levels with increasing difficultly based on probabilities of random block generation </li>
+                            <li> The ability to turn on and off realtime downward movements of blocks, implemented using multi-threading and lambda functions </li>
+                            <li> Bonus "computer" move uses complex scoring logic to suggest the best possible move given the board. </li>
+                            <li> The scoring mechanism differs from the original game slightly: in addition to getting points for clearing rows, you also get additional points for clearing blocks.</li>
+                            <li> Used several C++ OOP principles such as RAII, pimpl </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col px-0">
+                    <img class="img-tetris" src="../img/portfolio/Tetris/Score.png"><br>
+                    The highscore is persisted throughout the session.
+                </div>
+                <div class="col px-0">
+                        <img class="img-tetris" src="../img/portfolio/Tetris/hint.png"><br>
+                        Note: hint is represented as a black shadow block on the board.
+                </div>
+                <div class="col px-0">
+                        <img class="img-tetris" src="../img/portfolio/Tetris/lose.png"><br>
+                        The UI for when you lose a game.
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
