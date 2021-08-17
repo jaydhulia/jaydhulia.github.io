@@ -1,10 +1,20 @@
 export const workExperienceData = [
   {
+    company: "NETFLIX",
+    title: "Cloud Infrastructure Security Engineer Intern",
+    date_location: "Sept 2021 - Present | Remote\n",
+    responsibilities: [
+      "Details coming soon!",
+    ],
+    link: "https://github.com/Netflix/consoleme",
+  },
+  {
     company: "WISH",
     title: "Security Infrastructure Engineer Intern",
-    date_location: "Jan 2021 - Present | Remote",
+    date_location: "Jan 2021 - Apr 2021 | Remote",
     responsibilities: [
       "Built a log analysis tool using Python and AWS Athena that allows for easy querying, aggregating and parsing of logs",
+      "Reduced the query time from ~55 minutes per query to ~25 seconds per query",
       "Developed and deployed a CLI wrapper for SSH access into instances using Go",
       "Deployed the required infrastructure for the above projects (AWS EKS clusters, DynamoDB tables, S3, IAM roles/policies) using TerraForm",
     ],
@@ -15,6 +25,7 @@ export const workExperienceData = [
     date_location: "May 2020 - Aug 2020 | Remote\n",
     responsibilities: [
       "Implemented a multi-account AWS management system using Python and React that allows for role creation, cloning, deletion, and policy application across multiple AWS accounts from the convenience of one framework - ConsoleMe",
+      "Reduced the time for role creation, cloning and deletion from 7+ minutes to less than 30 seconds",
       "Discovered critical AuthZ and XSS security bugs, and thereafter patched them",
     ],
     link: "https://github.com/Netflix/consoleme",
