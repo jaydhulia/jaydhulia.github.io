@@ -72,14 +72,16 @@ export const workExperienceData = [
 
 export const projectsData = [
   {
-    name: "Smile4Real",
-    description: "Java - Android Application",
-    image_link: "/img/portfolio/android.jpg",
-    github_link: "https://github.com/jaydhulia/smile4real",
+    name: "3D VR escape rooms",
+    description: "Python, AWS, PostgreSQL",
+    image_link: "/img/portfolio/connecteen.png",
+    play_link: "https://interactive.calgaryconnecteen.com/",
+    github_link: "https://github.com/uwblueprint/cdc-backend/",
     modalData: [
-      "Ranked 2nd place at DeltaHacks with 100+ teams participating",
-      "Collaborated to create a positive social impact android app to help individuals struggling with suicidal thoughts",
-      "Implemented features such as making API calls, parsing JSON data, and infinite scrolling of images and text",
+      "Designed, developed and deployed a fully functional web application that allows building and playing 3D VR escape rooms",
+      "Implemented the backend server using Python with data being stored on PostgreSQL",
+      "Dockerized and deployed application to AWS EC2, behind Nginx",
+      "Set up the infrastructure and required AWS services: Cloudfront (Caching), EC2 (Deployment), IAM (Access Management), RDS (PostgreSQL), S3 (Storage)",
     ],
   },
   {
@@ -127,13 +129,14 @@ export const projectsData = [
     ],
   },
   {
-    name: "Hand-Gesture Controlled Tank Game",
-    description: "C / Arduino",
-    image_link: "/img/portfolio/tank.jpg",
+    name: "Smile4Real",
+    description: "Java - Android Application",
+    image_link: "/img/portfolio/android.jpg",
+    github_link: "https://github.com/jaydhulia/smile4real",
     modalData: [
-      "Constructed a hand-gesture controlled two-player tank game using Arduino and C equipped with lasers and IR",
-      "Integrated the tanks with Bluetooth and accelerometer modules to provide control through hand gestures",
-      "Implemented a multi-stage design; players would receive power-ups and health packs if they performed certain patterns of actions",
+      "Ranked 2nd place at DeltaHacks with 100+ teams participating",
+      "Collaborated to create a positive social impact android app to help individuals struggling with suicidal thoughts",
+      "Implemented features such as making API calls, parsing JSON data, and infinite scrolling of images and text",
     ],
   },
   {
