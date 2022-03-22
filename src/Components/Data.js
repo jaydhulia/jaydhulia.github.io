@@ -143,7 +143,7 @@ export const projectsData = [
     name: "Security Bug Bounties!",
     description: "HackerOne, Bugcrowd",
     image_link: "/img/portfolio/security.jpeg",
-    bug_link: "https://hackerone.com/forthegreatergood?type=user",
+    bug_link: "https://hackerone.com/security_warrior?type=user",
     modalData: [
       "Continued participation in bug bounty programs offered by HackerOne and Bugcrowd",
       "Found security bugs in many websites and reported them to the respective companies, often also verifying the fix once it has been patched",
