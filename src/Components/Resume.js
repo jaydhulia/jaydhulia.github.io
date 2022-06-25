@@ -12,7 +12,7 @@ class Resume extends Component {
             <h3>{work.company}</h3>
             {work.link ? (
               <a
-                href="https://github.com/Netflix/consoleme"
+                href={work.link}
                 target="_blank"
                 rel={"noreferrer"}
               >

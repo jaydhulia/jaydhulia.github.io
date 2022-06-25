@@ -1,12 +1,22 @@
 export const workExperienceData = [
   {
     company: "NETFLIX",
-    title: "Cloud Infrastructure Security Engineer Intern",
-    date_location: "Sept 2021 - Present | Remote\n",
+    title: "Cloud Infrastructure Security Engineer",
+    date_location: "Jun 2022 - Present | Los Gatos, California, USA \n",
     responsibilities: [
       "Details coming soon!",
+    ]
+  },
+  {
+    company: "NETFLIX",
+    title: "Cloud Infrastructure Security Engineer Intern",
+    date_location: "Sept 2021 - Dec 2021 | Remote\n",
+    responsibilities: [
+      "Developed a CLI tool for multi-account AWS management framework using Go",
+      "Performed user research and gap analysis to determine current pain points when using the CLI tool, thereafter developed features and improved UX based on the results",
+      "Migrated users from legacy tool to new CLI tool with no user interaction while maintaining full backwards compatibility",
     ],
-    link: "https://github.com/Netflix/consoleme",
+    link: "https://github.com/Netflix/weep",
   },
   {
     company: "WISH",
