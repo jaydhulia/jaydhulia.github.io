@@ -4,11 +4,11 @@ export const workExperienceData = [
     title: "Senior Cloud Infrastructure Security Engineer",
     date_location: "Jun 2022 - Present | Los Gatos, California, USA \n",
     responsibilities: [
-      "Discovered several critical P0vulnerabilities that would have allowed for a complete compromise of the Netflix AWS infrastructure, including CVE-2024-5023",
+      "Discovered several critical P0 vulnerabilities that would have allowed for a complete compromise of the Netflix AWS infrastructure, including CVE-2024-5023",
       "Informally nicknamed Good Find for consistently uncovering critical vulnerabilities and actively contributing to the internal Red Team",
-      "Established and led the visionand strategic directionfor AWS developer workflows, enforcing secure guardrails while allowing for developer velocity",
-      "Spearheaded the development of an internal IaCsolution and other AWS management tools (such as ConsoleMe, Weep) to achieve the above vision",
-      "Helped develop other Netflix engineers’ skills by leading vulnerability walkthrough sessions"
+      "Established and led the vision and strategic direction for AWS developer workflows, enforcing secure guardrails while allowing for developer velocity",
+      "Spearheaded the development of an internal IaC solution and other AWS management tools (such as ConsoleMe, Weep) to achieve the above vision",
+      "Helped develop other Netflix engineers' skills by leading vulnerability walkthrough sessions"
     ],
     "link": "https://github.com/Netflix/consoleme/security/advisories/GHSA-3783-62vc-jr7x"
   },
