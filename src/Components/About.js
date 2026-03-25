@@ -34,6 +34,28 @@ class About extends Component {
                   </List.Item>
                   <List.Item>
                     {" "}
+                    Identified multiple critical P0 vulnerabilities, including some CVEs: {" "}
+                    <a
+                      href="https://github.com/advisories/GHSA-3783-62vc-jr7x"
+                      target="_blank"
+                      rel={"noreferrer"}
+                    >
+                      {" "}
+                      CVE-2024-5023{" "}
+                    </a>{" "}
+                    and
+                    <a
+                      href="https://github.com/advisories/GHSA-8r8j-gfhg-fw38"
+                      target="_blank"
+                      rel={"noreferrer"}
+                    >
+                      {" "}
+                      CVE-2026-25534{" "}
+                    </a>{" "}
+
+                  </List.Item>
+                  <List.Item>
+                    {" "}
                     Finding security bugs and vulnerabilities within internal
                     code, using a variety of techniques such as Fuzzing, Static
                     Analysis tools, and Source code review{" "}
