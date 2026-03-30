@@ -56,6 +56,19 @@ class About extends Component {
                   </List.Item>
                   <List.Item>
                     {" "}
+                    Presented at AWS Re:Invent - led a technical, interactive discussion on practical AWS IAM abstractions and patterns, providing insights into how we use them at Netflix: {" "}
+                    <a
+                      href="https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/events/approved/reinvent-2025/reinvent/2024/slides/nfx/NFX401_Practical-IAM-abstractions-Self-service-without-the-JSON.pdf"
+                      target="_blank"
+                      rel={"noreferrer"}
+                    >
+                      {" "}
+                      NFX401 Practical IAM abstractions:
+                      Self-service without the JSON{" "}
+                    </a>{" "}
+                  </List.Item>
+                  <List.Item>
+                    {" "}
                     Finding security bugs and vulnerabilities within internal
                     code, using a variety of techniques such as Fuzzing, Static
                     Analysis tools, and Source code review{" "}
